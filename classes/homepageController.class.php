@@ -4,8 +4,8 @@
 
       public function get() {
         $user = new userModel;
-        $userhpage = new userHomepageView;
-        $homepageHTML = $userhpage ->getHTML();
+        $userpage = new userHomepageView;
+        $homepageHTML = $userpage ->getHTML();
         $this->html .= $homepageHTML;
       }
       public function post() {}

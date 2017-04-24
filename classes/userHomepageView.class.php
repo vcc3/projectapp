@@ -9,45 +9,45 @@
     
     <div class="card" style="width: 10rem; float:left;">
       <div class="card-block">
-        <h4 class="card-title">PHP</h4>
         
-        <a href="php.html" class="btn btn-primary">PHP</a>
+        
+        <a href="getPHP.class.php" class="btn btn-primary">PHP</a>
       </div>
     </div>
     <div class="card" style="width: 10rem; float:left;">
       <div class="card-block">
-        <h4 class="card-title">Java     </h4>
        
-        <a href="java.html" class="btn btn-primary">Java</a>
+       
+        <a href="getJava.class.php" class="btn btn-primary">Java</a>
       </div>
     </div>
     <div class="card" style="width: 10rem; float:left;">
       <div class="card-block">
-        <h4 class="card-title">JavaScript</h4>
        
-        <a href="jspage.html" class="btn btn-primary">JavaScript</a>
+       
+        <a href="getJavaScript.class.php" class="btn btn-primary">JavaScript</a>
       </div>
     </div>
      
      <div class="card" style="width: 10rem; float:left;">
       <div class="card-block">
-        <h4 class="card-title">Python</h4>
+        
        
-        <a href="python.html" class="btn btn-primary">Python</a>
+        <a href="getPython.class.php" class="btn btn-primary">Python</a>
       </div>
     </div>
    <div class="card" style="width: 10rem; float:left;">
       <div class="card-block">
-        <h4 class="card-title">HTML/CSS</h4>
        
-        <a href="webdev.html" class="btn btn-primary">HTML/CSS</a>
+       
+        <a href="getWebDev.class.php" class="btn btn-primary">HTML/CSS</a>
       </div>
     </div>
     <div class="card" style="width: 10rem; float:left;">
       <div class="card-block">
-        <h4 class="card-title">C</h4>
        
-        <a href="c.html" class="btn btn-primary">C</a>
+       
+        <a href="getC.class.php" class="btn btn-primary">C</a>
       </div>
     </div>
 

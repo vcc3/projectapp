@@ -72,14 +72,12 @@
 
        }
 
-       else {
-         
+       else {         
          $username = $_SESSION['username'];
          $user = new userModel;
          $line = $user->getUserInfomation($username);
 
-      $profile = '
-      
+      $profile = '      
          <div id="profileform" class="form">
 	   <form id="edit">
 	   <center><h2>Profile</h2></center>
@@ -104,12 +102,14 @@
                </div>
 	       </div></center>
 	       <div>
-	         <center><button id="submit"><a href="index.php?controller=userController&action=edit">Edit</a></center>
+	         
                <br><br>
 	       <div>
-	     </div>
-
-
+	     </div>  
+           <div id ="myVid">
+           
+           </div>
+             
   	      ';
        }
 

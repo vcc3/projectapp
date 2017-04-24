@@ -1,6 +1,6 @@
 <?php
 
-  class userHomepageView {
+  class getC {
 
      public function getHTML($errors='') {
    $homepage = '
@@ -41,19 +41,19 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=N7MRxREJ4-U&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=5">C Video Tutorial 4</a></h4><p>Get the Code Here : http://goo.gl/Q8sGfU Welcome to part 4 of my C Video Tutorial! Today I'm going to try something a little different to try and make the videos feel more like a classroom atmosphere. We'll be looking at pointers in c. I'll cover what pointers are.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=N7MRxREJ4-U&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=5">C Video Tutorial 4</a></h4><p>Get the Code Here : http://goo.gl/Q8sGfU Welcome to part 4 of my C Video Tutorial! Today I m going to try something a little different to try and make the videos feel more like a classroom atmosphere. We will be looking at pointers in c. I will cover what pointers are.</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=zv8OdxQuUl8&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=6">C Video Tutorial 5</a></h4><p>Get the Code Here : http://goo.gl/12DBHg Today I'm going to cover how to create and use a struct in C. Structs are used when you need more then one piece of data to describe one thing.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=zv8OdxQuUl8&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=6">C Video Tutorial 5</a></h4><p>Get the Code Here : http://goo.gl/12DBHg Today I am going to cover how to create and use a struct in C. Structs are used when you need more then one piece of data to describe one thing.</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=MjQ6PEQen-Q&index=7&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7">C Video Tutorial 6</a></h4><p>Get the Code Here : http://goo.gl/zRT75P Welcome to part 6 of my C video tutorial. Today I'm going to cover Unions, Enumerated Types, the Designated Initializer, Using unions in Structs, Recursive Structures, Linked Lists and much more. I'm also going to experiment with a new style that is more interactive and I hope it feels more like a classroom setting.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=MjQ6PEQen-Q&index=7&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7">C Video Tutorial 6</a></h4><p>Get the Code Here : http://goo.gl/zRT75P Welcome to part 6 of my C video tutorial. Today I&#39;m going to cover Unions, Enumerated Types, the Designated Initializer, Using unions in Structs, Recursive Structures, Linked Lists and much more. I&#39;m also going to experiment with a new style that is more interactive and I hope it feels more like a classroom setting.</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=FqpbxjiaB5o&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=8">C Video Tutorial 7</a></h4><p>Get the Code Here : http://goo.gl/vLEliW In this tutorial, I'm going to cover a bunch of topics that you have requested and that I have skipped. I cover the following: strchr(), strrchr(), tolower(), toupper(), ctype.h Functions, _Bool, bool, Numerous Ways to Except Input, getchar(), putchar(), Buffering, gets(), puts(), fgets(), fputs(), How to Eliminate Newline, How to Make a String Lowercase, strcmp() and more.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=FqpbxjiaB5o&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=8">C Video Tutorial 7</a></h4><p>Get the Code Here : http://goo.gl/vLEliW In this tutorial, I&#39;m going to cover a bunch of topics that you have requested and that I have skipped. I cover the following: strchr(), strrchr(), tolower(), toupper(), ctype.h Functions, _Bool, bool, Numerous Ways to Except Input, getchar(), putchar(), Buffering, gets(), puts(), fgets(), fputs(), How to Eliminate Newline, How to Make a String Lowercase, strcmp() and more.</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
         </div>
@@ -70,11 +70,11 @@
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=aMVuOpdnu3A&index=11&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7">C Video Tutorial 10</a></h4><p>Get the Code & Transcription Here : http://goo.gl/H7l1QM In this video I continue with my C Linked List tutorial. In part 9, I gave you homework and in this video I will show you my answer. You guys asked for more tutorials like this, so I'm giving it a try.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=aMVuOpdnu3A&index=11&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7">C Video Tutorial 10</a></h4><p>Get the Code & Transcription Here : http://goo.gl/H7l1QM In this video I continue with my C Linked List tutorial. In part 9, I gave you homework and in this video I will show you my answer. You guys asked for more tutorials like this, so I&#39;m giving it a try.</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=FioQNaLA2zY&index=12&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7">C Video Tutorial 11</a></h4><p>Get the Code & Transcript Here : http://goo.gl/m4mAF6 In this part of the C Video Tutorial I will provide C File IO examples. I'll cover C Text File IO in this tutorial and the Binary File IO functions in the next part.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=FioQNaLA2zY&index=12&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7">C Video Tutorial 11</a></h4><p>Get the Code & Transcript Here : http://goo.gl/m4mAF6 In this part of the C Video Tutorial I will provide C File IO examples. I&#39;ll cover C Text File IO in this tutorial and the Binary File IO functions in the next part.</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
         </div>

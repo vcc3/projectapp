@@ -6,7 +6,7 @@ class dbConn{
   protected static $db;
   private function __construct() {
     try {
-      self::$db = new PDO( 'mysql:host=sql2.njit.edu;dbname=ml473', 'ml473', 'Z93KhFEP' );
+      self::$db = new PDO( 'mysql:host=sql2.njit.edu;dbname=ml473', 'ml473', 'CH0Iamcmk' );
       self::$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
     }
     catch (PDOException $e) {

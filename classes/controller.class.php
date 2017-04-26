@@ -35,7 +35,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+  
     
     <!---angular stufff---->
     
@@ -52,6 +52,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 
+
+  <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 </head>
 

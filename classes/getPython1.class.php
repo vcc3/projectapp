@@ -1,6 +1,6 @@
 <?php
 
-  class getC1 {
+  class getPython1 {
 
      public function getHTML($errors='') {
    $page = '
@@ -10,8 +10,8 @@
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">C
-                    <small>How to Install GCC</small>
+                <h1 class="page-header">Python
+                    <small>Installing Python 3 - How to install/use both Python 2 and Python 3</small>
                 </h1>
             </div>
         </div>
@@ -20,8 +20,7 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-9 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=8Ib7nwc33uA&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=1">How to Install GCC</a></h4><p>Get the Step-by-Step List Here : http://goo.gl/Kd6jhf MinGW : http://sourceforge.net/projects/mingw/ In the past week I have been asked a countless number of times how to install GCC ( GNU Compiler Collection ). I show you how to install GCC on Windows as well as on a Mac in the video below.</p></blockquote>
-                
+				 <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=IX6mc9l6tY4&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M&index=2">Installing Python 3 - How to install/use both Python 2 and Python 3</a></h4><p>Sample code for this basics series: http://pythonprogramming.net/beginner-python-programming-tutorials/ Python 3 Programming tutorial Playlist: http://www.youtube.com/watch?v=oVp1vrfL_w4&feature=share&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M Everyone starts as a beginner. Hopefully I can help many of you out of that stage! Many people know they want to learn to program, but they are not sure which language to go with or where to start.</p></blockquote>
        
         
             </div>

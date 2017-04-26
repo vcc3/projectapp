@@ -1,6 +1,6 @@
 <?php
 
-  class getC1 {
+  class getPHP2 {
 
      public function getHTML($errors='') {
    $page = '
@@ -10,8 +10,8 @@
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">C
-                    <small>How to Install GCC</small>
+                <h1 class="page-header">PHP
+                    <small>PHP Object Oriented Programming (OOP): Classes (2/13)</small>
                 </h1>
             </div>
         </div>
@@ -20,8 +20,7 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-9 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=8Ib7nwc33uA&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=1">How to Install GCC</a></h4><p>Get the Step-by-Step List Here : http://goo.gl/Kd6jhf MinGW : http://sourceforge.net/projects/mingw/ In the past week I have been asked a countless number of times how to install GCC ( GNU Compiler Collection ). I show you how to install GCC on Windows as well as on a Mac in the video below.</p></blockquote>
-                
+				 <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=Yg31v6XB81o&index=2&list=PLfdtiltiRHWF0RicJb20da8nECQ1jFvla">PHP Object Oriented Programming (OOP): Classes (2/13)</a></h4><p>Want more? Explore the library at https://www.codecourse.com/lessons Official site https://www              .codecourse.com Twitter https://twitter.com/teamcodecourse</p></blockquote>
        
         
             </div>

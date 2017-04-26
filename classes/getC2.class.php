@@ -1,6 +1,6 @@
 <?php
 
-  class getC1 {
+  class getC2 {
 
      public function getHTML($errors='') {
    $page = '
@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">C
-                    <small>How to Install GCC</small>
+                    <small>C Video Tutorial</small>
                 </h1>
             </div>
         </div>
@@ -20,7 +20,7 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-9 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=8Ib7nwc33uA&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=1">How to Install GCC</a></h4><p>Get the Step-by-Step List Here : http://goo.gl/Kd6jhf MinGW : http://sourceforge.net/projects/mingw/ In the past week I have been asked a countless number of times how to install GCC ( GNU Compiler Collection ). I show you how to install GCC on Windows as well as on a Mac in the video below.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=nXvy5900m3M&list=PLGLfVvz_LVvSaXCpKS395wbCcmsmgRea7&index=2">C Video Tutorial</a></h4><p>Get the Code Here: http://goo.gl/u23ZZ Support me on Patreon : https://www.patreon.com/derekbanas Welcome to part 1 of my C Video Tutorial! I have been getting this request constantly lately so I decided to cover the C programming language in a fast and complete tutorial series. It will probably be complete by the end of the weekend!</p></blockquote>
                 
        
         

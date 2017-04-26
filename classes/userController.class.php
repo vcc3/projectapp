@@ -35,11 +35,7 @@
             }
 
 
-            elseif($action=="c1"){
-              $table = new getC1;
-              $tableHTML = $table->getHTML();
-              $this->html .= $tableHTML;
-            }
+          
             
             elseif($action=="java"){
               $javaPage = new getJava;
@@ -76,6 +72,59 @@
               $pageHTML = $javaPage->getHTML();
               $this->html .= $pageHTML;            
             }
+            //--------------------------------------------------------------------------
+            //Page getting for demo
+              elseif($action=="c1"){
+              $table = new getC1;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+              elseif($action=="c2"){
+              $table = new getC2;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+             elseif($action=="php1"){
+              $table = new getPHP1;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+             elseif($action=="php2"){
+              $table = new getPHP2;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+             elseif($action=="java1"){
+              $table = new getJava1;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            } elseif($action=="java2"){
+              $table = new getJava2;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+             elseif($action=="python1"){
+              $table = new getPython1;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+             elseif($action=="python2"){
+              $table = new getPython2;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+            elseif($action=="javascript1"){
+              $table = new getJavaScript1;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+             elseif($action=="javascript2"){
+              $table = new getJavaScript2;
+              $tableHTML = $table->getHTML();
+              $this->html .= $tableHTML;
+            }
+            
+            //---------------------------------------------------------------------------
 
             
             elseif($action=="logout"){
@@ -185,7 +234,29 @@
 	    }
       	}
      } 
-	  
+	    //save a video
+      if($_POST['form'] == 'savevideo'){
+          $db = dbConn::getConnection();
+	  $stmt = $db->prepare('SELECT username FROM saved_videos WHERE username = :username');
+	  $stmt->execute(array(':username' => $_POST['user_name']));
+	  $line = $stmt->fetch(PDO::FETCH_ASSOC);
+     
+     if(!empty($line['username'])){
+	    $error[] = 'UNVALID USERNAME!';
+         
+	  } else{
+            $db = dbConn::getConnection();
+	    $stmt = $db->prepare('SELECT url FROM saved_videos WHERE url = :url');
+	    $stmt->execute(array(':url' => $_POST['url']));
+	    $line = $stmt->fetch(PDO::FETCH_ASSOC);
+	    
+	    if(!empty($line['url'])){
+	      $error[] = 'url does not exist';
+	    }
+      	}
+      
+      
+      }   
 
      //UPDATE PROFILE
 

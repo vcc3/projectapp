@@ -55,7 +55,7 @@
 
                     <a href="#" class="btn btn-primary">Add to my list!</a>
 
-                    <!--a href="#" class="btn btn-default">More Info</a-->
+                    <a href="index.php?controller=userController&action=c1" class="btn btn-default">More Info</a>
 
                   </p>
 

@@ -10,6 +10,7 @@
     public function delete() {}
     public function __construct() {
       $header = '
+      <html ng-app="IS219Gallery">
       <head>
 
     <meta charset="utf-8">
@@ -18,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> CodeHub</title>
+    <title> CodeHub </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,10 +34,28 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+    
+    <!---angular stufff---->
+    
+    
+    	
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+
+	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
+
+	<!-- Angular (ADD HERE) -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
 
 </head>
 
-<body>
+<body ng-controller="HomeController">
   
 
     <!-- Navigation -->
@@ -62,7 +81,7 @@
                         <a href="index.php?controller=userController&action=profile">Profile</a></a>
                     </li>
                     <li>
-                        <a href="#">My Videos</a>
+                        <a href="index.php?controller=userController&action=myvideo">My Videos</a>
                     </li>
                     <li>
                         <a href="index.php?controller=userController">Login</a>

@@ -35,8 +35,8 @@
             }
 
 
-            elseif($action=="usertable"){
-              $table = new userTableView;
+            elseif($action=="c1"){
+              $table = new getC1;
               $tableHTML = $table->getHTML();
               $this->html .= $tableHTML;
             }
@@ -68,6 +68,11 @@
             }
             elseif($action=="webdev"){
               $javaPage = new getWebDev;
+              $pageHTML = $javaPage->getHTML();
+              $this->html .= $pageHTML;            
+            }
+             elseif($action=="myvideo"){
+              $javaPage = new getMyVideo;
               $pageHTML = $javaPage->getHTML();
               $this->html .= $pageHTML;            
             }

@@ -3,7 +3,7 @@
   class getC {
 
      public function getHTML($errors='') {
-   $homepage = '
+   $page = '
           <!-- Page Content -->
     <div class="container">
 
@@ -138,7 +138,7 @@
 </html>
 
 ';
-          return $homepage;
+          return $page;
        }
   }
 

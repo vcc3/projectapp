@@ -3,7 +3,7 @@
   class userProfileView {
 
      public function getHTML($edit=false, $errors) {
-      if(isset($errors)){
+      /*if(isset($errors)){
          $errorhtml = '
                       <div id="errors" class="errors">
                         <p>'.$errors.'</p>
@@ -12,7 +12,7 @@
        } else {
          $errorhtml = '';
        }
-      
+      */
        if($edit == true) {
          $username = $_SESSION['username'];
          $user = new userModel;
@@ -31,7 +31,7 @@
 	       <br>
 	       <div>
                  <label for="photo">
-		 <center><input type="file" name="avatar" accept="image/*"></center>
+		
                </div>
 	       <br>
 	       <div>
@@ -102,10 +102,12 @@
                </div>
 	       </div></center>
 	       <div>
+                <center><button id="submit"><a href="index.php?controller=userController&action=edit">Edit</a></center>
 	         
                <br><br>
 	       <div>
 	     </div>  
+           
            <div id ="myVid">
            
            </div>

@@ -1,9 +1,9 @@
 <?php
 
-  class userHomepageView {
+  class getWebDev {
 
      public function getHTML($errors='') {
-   $homepage = '
+   $page = '
    <!-- Page Content -->
     <div class="container">
 
@@ -70,7 +70,7 @@
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=11miJPdgNRg&index=11&list=PL41lfR-6DnOruqMacTfff1zrEcqtmm7Fv">HTML5 and CSS3 beginners tutorial 11 - Intro to CSS</a></h4><p>In this tutorial I show you guys how to use CSS on your web page and speak to you about the different methods that we can use to make this possible. Don't forget to subscribe: http://www.youtube.com/user/QuentinWatt Social links: ------------------------------------------------------------- Add me on twitter: http://www.twitter.com/QuentinWatt facebook group: https://www.facebook.com/quentin.watt -------------------------------------------------------------</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=11miJPdgNRg&index=11&list=PL41lfR-6DnOruqMacTfff1zrEcqtmm7Fv">HTML5 and CSS3 beginners tutorial 11 - Intro to CSS</a></h4><p>In this tutorial I show you guys how to use CSS on your web page and speak to you about the different methods that we can use to make this possible. Don&#39;t forget to subscribe: http://www.youtube.com/user/QuentinWatt Social links: ------------------------------------------------------------- Add me on twitter: http://www.twitter.com/QuentinWatt facebook group: https://www.facebook.com/quentin.watt -------------------------------------------------------------</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
@@ -138,7 +138,7 @@
 </html>
 
 ';
-          return $homepage;
+          return $page;
        }
   }
 

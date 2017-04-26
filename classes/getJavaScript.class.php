@@ -1,9 +1,9 @@
 <?php
 
-  class userHomepageView {
+  class getJavaScript {
 
      public function getHTML($errors='') {
-   $homepage = '
+   $page = '
      <!-- Page Content -->
     <div class="container">
 
@@ -159,7 +159,7 @@
 </html>
 
 ';
-          return $homepage;
+          return $page;
        }
   }
 

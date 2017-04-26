@@ -1,9 +1,9 @@
 <?php
 
-  class userHomepageView {
+  class getPython {
 
      public function getHTML($errors='') {
-   $homepage = '
+   $page = '
     <!-- Page Content -->
     <div class="container">
 
@@ -45,7 +45,7 @@
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=xtXexPSfcZg&index=7&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M">Python 3 Programming Tutorial - For loop</a></h4><p>The next loop is the For loop. The idea of the for loop is to "iterate" through something. For each thing in that something, it will do a block of code. Most often, you will a for loop's structure very much like for eachThing in thisThing: do this stuff in this block So, again, why would someone use each type of loop?</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=xtXexPSfcZg&index=7&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M">Python 3 Programming Tutorial - For loop</a></h4><p>The next loop is the For loop. The idea of the for loop is to "iterate" through something. For each thing in that something, it will do a block of code. Most often, you will a for loop&#39;s structure very much like for eachThing in thisThing: do this stuff in this block So, again, why would someone use each type of loop?</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
@@ -53,7 +53,7 @@
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
             <div class="col-md-3 portfolio-item">
-                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=qf0sfRZ0hHc&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M&index=9">Python 3 Programming Tutorial: If Else</a></h4><p>The If-Else statement is designed to build on the if statement's logic. Here, we ask if something is the case, and, if it is we do something. Then we say otherwise, which is contingent on the previous if statement, do something else. If the previous if statement is true, then the else will not run.</p></blockquote>
+                <blockquote class="embedly-card"><h4><a href="https://www.youtube.com/watch?v=qf0sfRZ0hHc&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M&index=9">Python 3 Programming Tutorial: If Else</a></h4><p>The If-Else statement is designed to build on the if statement&#39;s logic. Here, we ask if something is the case, and, if it is we do something. Then we say otherwise, which is contingent on the previous if statement, do something else. If the previous if statement is true, then the else will not run.</p></blockquote>
                 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
             </div>
         </div>
@@ -138,7 +138,7 @@
 </html>
 
 ';
-          return $homepage;
+          return $page;
        }
   }
 

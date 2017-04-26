@@ -40,10 +40,43 @@
               $tableHTML = $table->getHTML();
               $this->html .= $tableHTML;
             }
+            
+            elseif($action=="java"){
+              $javaPage = new getJava;
+              $pageHTML = $javaPage->getHTML();
+              $this->html .= $pageHTML;            
+            }
+            elseif($action=="php"){
+              $javaPage = new getPHP;
+              $pageHTML = $javaPage->getHTML();
+              $this->html .= $pageHTML;            
+            }
+            elseif($action=="javascript"){
+              $javaPage = new getJavaScript;
+              $pageHTML = $javaPage->getHTML();
+              $this->html .= $pageHTML;            
+            }
+            elseif($action=="c"){
+              $javaPage = new getC;
+              $pageHTML = $javaPage->getHTML();
+              $this->html .= $pageHTML;            
+            }
+            elseif($action=="python"){
+              $javaPage = new getPython;
+              $pageHTML = $javaPage->getHTML();
+              $this->html .= $pageHTML;            
+            }
+            elseif($action=="webdev"){
+              $javaPage = new getWebDev;
+              $pageHTML = $javaPage->getHTML();
+              $this->html .= $pageHTML;            
+            }
 
             
             elseif($action=="logout"){
-	      $user = new userModel;
+            
+	      $user = new userModel;    
+        $user ->logout();         
 	      $logoutpage = new userLogoutPageView;
 	      $logoutHTML = $logoutpage->getHTML();
 	      $this->html .= $logoutHTML;
